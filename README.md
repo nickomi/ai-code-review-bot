@@ -17,7 +17,7 @@ An AI-powered bot that automatically reviews GitHub pull requests, detects code 
 
 ## Setup
 
-### 1️⃣ Backend Setup
+### Backend Setup
 ```bash
 # Clone repository
 git clone https://github.com/your-repo/ai-code-review-bot.git
@@ -34,11 +34,11 @@ export OPENAI_API_KEY=your_openai_key
 uvicorn main:app --reload
 ```
 
-### 2️⃣ GitHub Action Setup
+### GitHub Action Setup
 1. Copy `.github/workflows/code-review.yml` to your repo.
 2. Update the API endpoint in the workflow.
 
-### 3️⃣ Frontend Setup
+### Frontend Setup
 ```bash
 cd frontend
 npm install
@@ -49,7 +49,3 @@ npm start
 - Open a pull request on GitHub.
 - The bot automatically reviews it and comments with feedback.
 - Check the web dashboard for historical reviews.
-
-## License
-MIT
-
