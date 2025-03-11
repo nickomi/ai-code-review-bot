@@ -1,7 +1,4 @@
-# AI Code Review Bot
-
-## Overview
-An AI-powered bot that automatically reviews GitHub pull requests, detects code issues, and provides feedback as comments.
+## An AI-powered bot that automatically reviews GitHub pull requests, detects code issues, and provides feedback as comments.
 
 ## Features
 - Analyzes pull request diffs using OpenAI GPT-4
